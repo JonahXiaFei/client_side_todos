@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:7525/api/todos";
+const apiUrl = "http://localhost:10000/api/todos";
 
 document.getElementById("filterButton").addEventListener("click", async () => {
   const startDate = document.getElementById("startDate").value;
