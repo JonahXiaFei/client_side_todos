@@ -1,4 +1,4 @@
-const apiUrl = "https://render.com/docs/web-services#port-binding/api/todos";
+const apiUrl = "https://server-side-code-todos.onrender.com/api/todos";
 
 document.getElementById("filterButton").addEventListener("click", async () => {
   const startDate = document.getElementById("startDate").value;
