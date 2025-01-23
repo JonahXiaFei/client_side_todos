@@ -1,7 +1,4 @@
-const apiUrl =
-  location.hostname === "localhost"
-    ? "http://localhost:10000/api/todos"
-    : " https://render.com/docs/web-services#port-binding/api/todos";
+const apiUrl = "https://render.com/docs/web-services#port-binding/api/todos";
 
 document.getElementById("filterButton").addEventListener("click", async () => {
   const startDate = document.getElementById("startDate").value;
